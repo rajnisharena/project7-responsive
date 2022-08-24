@@ -12,6 +12,6 @@
 #### 5 hours
 
 ### Porject link
-[vercel link ](https://html-css-project8.vercel.app/)
+[vercel link ](https://project7-responsive.vercel.app/)
 
 ![badge](https://img.shields.io/badge/HTML-CSS-blue)
