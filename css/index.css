@@ -1,0 +1,325 @@
+body{
+     margin: 0px;
+     padding: 0px;
+     background-color: #fff;
+     overflow-x: hidden;
+    }
+.container{
+    width: 1170px;
+    margin: 30px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+}
+.logo img{ width: 130px;}
+.header-icon{  }
+nav{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     flex-direction: row;
+    }
+
+    
+    .nav-items{
+      
+       padding: 0px;
+       display: flex;
+       justify-content: space-between;
+      
+    
+    }
+
+    .nav-items h5{
+        margin: 0px;
+    }
+    .nav-items h5 a{
+        padding: 0px 30px;
+        text-decoration: none;
+        color: #464647;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+    }
+  h5.active-item a {
+        color: #ff5e35;
+        font-weight:900;
+        font-size: 16px;
+    }
+    .nav-items h5 a:hover{
+        opacity: 0.6;
+    }
+
+    .intro-section{
+     display: flex;
+     justify-content: space-between;
+      
+    }
+    .left-section{
+        margin-top: 40px;
+    }
+    .left-section h3{
+        font-size: 29px;
+        color: #242424;
+        font-family:'poppins';
+        font-weight: 100;
+        display: flex;
+        align-items: center;  
+        margin: 0px;  
+    }
+    h3 img{
+        padding-left: 10px;
+        width: 40px;
+    }
+
+    .left-section h1{
+        font-size: 50px;
+        color: #242424;
+        font-family:'Fredoka One';
+        font-weight: 100;
+        margin-top: 10px;
+    }
+
+    .sub-headlines{
+        margin: 30px 0px 0px 59px;
+    }
+
+   .sub-headline{
+        font-size: 19px;
+        color: #242424;
+        font-family:'poppins';
+        font-weight: 100;
+        display: flex;
+        align-items: center;
+        margin-bottom: 22px;
+        margin-top: 10px;
+    }
+
+    .sub-headline img{
+        background-color: #ff5e35;
+        border-radius: 50%; padding: 2px;
+        margin-right: 17px;
+        
+    }
+    .text{
+        font-family: 'poppins'; 
+        font-size: 13px;
+        color: #b3b3b3;
+        font-weight: 100;
+        margin-top: 60px;
+        width: 88%;
+    }
+
+    .action-btns{
+        margin-top: 60px;
+    }
+    .action-btn{
+        background-color: #ff5e35;
+        padding: 10px 20px ;
+        color: #fff;
+        border-radius: 20px;
+        border: solid 1px  #ff5e35;
+        font-size: 18px;
+        
+        
+    }
+    .headphon img{
+        width:457px;
+            height:446px;
+    }
+    .action-btns button{ margin-right: 20px;}
+    .right-section{
+        position: relative;
+        margin-right: 78px;
+        text-align: center;
+    }
+    .headphone-div{
+        display: flex;
+
+    }
+    .discount{
+        position: absolute;
+    top: 247px;
+    left: -52px;
+    width: 153px;
+    filter: drop-shadow(3px 6px 1px rgb(0 0 0 / 0.4));
+    }
+    .discount-content{
+        position: absolute;
+        top: 291px;
+        color: #fff;
+        font-family: 'Fredoka One';
+        line-height: 7px;
+        text-align: center; left: -24px;
+       
+    }
+
+   
+    .discount-content h1{
+        font-weight: 600;
+        font-size: 51px;
+        letter-spacing: 2px;
+    }
+    .discount-content h4
+    {    font-size: 17px;
+        font-weight: 100!important;
+        margin: 0px;
+        text-align: inherit;
+    }
+
+    .dots{
+        display: flex;
+        justify-content: center;
+        margin: 40px 0px 50px 0px;
+    }
+    .dot{
+      margin: 0px 6px;
+        
+    }
+
+    .yellow-dot{
+        border-radius: 50%;
+        width: 26px;
+        height: 26px; 
+        background-color: #fbd101;
+    }
+    .tomato-dot{
+        border-radius: 50%;
+        width: 26px;
+        height: 26px; 
+        background-color: #000;
+    }
+    .black-dot{
+        border-radius: 50%;
+        width: 26px;
+        height: 26px; 
+        background-color: #ff5e35;
+    }
+
+
+    @media screen and (min-width:1240px){
+
+        .nav-menu-icon{
+            display: none!important
+        
+      }
+      
+      
+      }
+      
+      @media screen and (max-width:1200px){
+        nav .nav-items{
+          display: none;
+        }
+        .nav-menu-icon{
+            display: block;
+         
+      }
+      
+      }
+      
+      @media  screen and (max-width: 200px) {
+        .nav-menu-icon{display: block; font-size: 30px; color: #000;}
+      }
+    
+    
+      @media  screen and (max-width: 700px) {
+        body{
+          
+            overflow-x: hidden;
+           }
+        
+        nav .nav-items{
+          display: none;
+        }
+        .nav-menu-icon{display: block; font-size: 30px; color: #000;margin-right: 5px;  }
+
+        .logo img{ width: 100px; margin-left: 10px;}
+        .header-icon img{ width: 248px; }
+
+        .container{
+            width: auto;
+            margin: 10px auto 0px auto;
+            display: flex;
+            flex-direction: column;
+        }
+        .intro-section {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .left-section {
+            margin-top: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .left-section h1 {
+          
+            text-align: center;
+        }
+        .sub-headlines {
+            margin: 0px 0px 0px 59px;
+        }
+        .text {
+           margin-top: 9px;
+         }
+
+         .left-section h1 {
+            font-size: 36px;
+           
+            margin-top: 10px;
+        }
+        .action-btns {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .headphon {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 68px;
+            margin-top: 10px;
+        }
+        .headphon img{
+            width: 283px;
+            height: 280px;
+        }
+        .discount {
+            position: absolute;
+            top: 192px;
+            left: 61px;
+            width: 67px;
+            filter: drop-shadow(3px 6px 1px rgb(0 0 0 / 0.4));
+        }
+
+        .discount-content {
+            top: 206px;
+            left: 72px;
+        }
+        .discount-content h1 {
+            font-weight: 600;
+            font-size: 24px;
+            letter-spacing: 2px;
+        }
+        .discount-content h4 {
+            font-size: 9px;
+            font-weight: 100!important;
+            margin: 0px;
+            text-align: inherit;
+        }
+
+
+.dots {
+    display: flex;
+    justify-content: center;
+    margin: 40px -52px 50px 0px;
+}
+.btn-mr{
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+    }
